@@ -108,23 +108,9 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell1", for: indexPath) as! HomeCollectionViewCell
-//        let topls = ([[String:Int]](consts.toplist_list.values))[indexPath.section]
-//        let idx_list = [String](topls.keys)
-//        let idx = idx_list[indexPath.row]
-//        var model:Any = []
-//        self.datasource.forEach { (item) in
-//            let item_dic = item as! Dictionary<String,Any>
-//            let ids:Int = item_dic["id"] as! Int
-//            if ids == Int(idx) {
-//                model = item
-//            }
-//        }
+        // 获取model模型
         let toplist:TopList = self.final_data_source[consts.toplist_name[indexPath.section]]![indexPath.row]
-//        let data = self.datasource[indexPath.row]
-//        let model = JSON(data)
-//        let name  = model["name"].rawString()
-//        let icon  = model["icons"][0]["url"].rawString()
-//
+        // 绑定数据
         let url = URL(string: toplist.coverImgURL!)
         cell.imageView.kf.setImage(with: url)
         cell.label.text = toplist.name
