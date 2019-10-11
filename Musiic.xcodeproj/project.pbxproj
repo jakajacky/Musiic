@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C6B9F487EF46B2B39BA9B26 /* Pods_Musiic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1970619B27B2359C76B249C8 /* Pods_Musiic.framework */; };
+		C36F2911232A3B3700E563D5 /* DRNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F2910232A3B3700E563D5 /* DRNetworking.swift */; };
+		C39F22AE23504EC70014D2CD /* consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F22AD23504EC70014D2CD /* consts.swift */; };
+		C39F22B1235069440014D2CD /* TopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F22B0235069440014D2CD /* TopList.swift */; };
+		C3B175D4234C3C89001622EE /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B175D2234C3C89001622EE /* HomeCollectionViewCell.swift */; };
+		C3B175D5234C3C89001622EE /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B175D3234C3C89001622EE /* HomeCollectionViewCell.xib */; };
 		C3C9D77C2328F2F60024CD48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D77B2328F2F60024CD48 /* AppDelegate.swift */; };
-		C3C9D77E2328F2F60024CD48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D77D2328F2F60024CD48 /* ViewController.swift */; };
+		C3C9D77E2328F2F60024CD48 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D77D2328F2F60024CD48 /* HomeViewController.swift */; };
 		C3C9D7812328F2F60024CD48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C9D77F2328F2F60024CD48 /* Main.storyboard */; };
 		C3C9D7832328F2F70024CD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C9D7822328F2F70024CD48 /* Assets.xcassets */; };
 		C3C9D7862328F2F70024CD48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C9D7842328F2F70024CD48 /* LaunchScreen.storyboard */; };
+		C3C9D78E2328F61E0024CD48 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D78D2328F61E0024CD48 /* SearchViewController.swift */; };
+		C3C9D7912328F6CE0024CD48 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D7902328F6CE0024CD48 /* CustomTabBarViewController.swift */; };
+		C3C9D7952329018D0024CD48 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D7942329018D0024CD48 /* CustomViewController.swift */; };
+		C3EA16FC234C798500C501EC /* HomeCollectionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA16FA234C798400C501EC /* HomeCollectionHeaderReusableView.swift */; };
+		C3EA16FD234C798500C501EC /* HomeCollectionHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3EA16FB234C798400C501EC /* HomeCollectionHeaderReusableView.xib */; };
+		C3EA1700234C7E4200C501EC /* HomeCollectionFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA16FE234C7E4200C501EC /* HomeCollectionFooterReusableView.swift */; };
+		C3EA1701234C7E4200C501EC /* HomeCollectionFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3EA16FF234C7E4200C501EC /* HomeCollectionFooterReusableView.xib */; };
+		C3FA4F1A2330BB7200503143 /* DRConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FA4F192330BB7200503143 /* DRConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18653BDF996B263B64A37D9A /* Pods-Musiic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musiic.debug.xcconfig"; path = "Target Support Files/Pods-Musiic/Pods-Musiic.debug.xcconfig"; sourceTree = "<group>"; };
+		1970619B27B2359C76B249C8 /* Pods_Musiic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Musiic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36F2910232A3B3700E563D5 /* DRNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRNetworking.swift; sourceTree = "<group>"; };
+		C39F22AD23504EC70014D2CD /* consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consts.swift; sourceTree = "<group>"; };
+		C39F22B0235069440014D2CD /* TopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopList.swift; sourceTree = "<group>"; };
+		C3B175D2234C3C89001622EE /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C3B175D3234C3C89001622EE /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		C3C9D7782328F2F60024CD48 /* Musiic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musiic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C9D77B2328F2F60024CD48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3C9D77D2328F2F60024CD48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3C9D77D2328F2F60024CD48 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C3C9D7802328F2F60024CD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3C9D7822328F2F70024CD48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3C9D7852328F2F70024CD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3C9D7872328F2F70024CD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C9D78D2328F61E0024CD48 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C3C9D7902328F6CE0024CD48 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		C3C9D7942329018D0024CD48 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		C3EA16FA234C798400C501EC /* HomeCollectionHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionHeaderReusableView.swift; sourceTree = "<group>"; };
+		C3EA16FB234C798400C501EC /* HomeCollectionHeaderReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionHeaderReusableView.xib; sourceTree = "<group>"; };
+		C3EA16FE234C7E4200C501EC /* HomeCollectionFooterReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionFooterReusableView.swift; sourceTree = "<group>"; };
+		C3EA16FF234C7E4200C501EC /* HomeCollectionFooterReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionFooterReusableView.xib; sourceTree = "<group>"; };
+		C3FA4F192330BB7200503143 /* DRConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRConfig.swift; sourceTree = "<group>"; };
+		E3B7A7BB8A16C58CC6F7AF6C /* Pods-Musiic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musiic.release.xcconfig"; path = "Target Support Files/Pods-Musiic/Pods-Musiic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6B9F487EF46B2B39BA9B26 /* Pods_Musiic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2287583F8AB09298789AF4D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18653BDF996B263B64A37D9A /* Pods-Musiic.debug.xcconfig */,
+				E3B7A7BB8A16C58CC6F7AF6C /* Pods-Musiic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69541907F1D4EC9CD3EE7790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1970619B27B2359C76B249C8 /* Pods_Musiic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C36F290F232A3AF900E563D5 /* DRNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C36F2910232A3B3700E563D5 /* DRNetworking.swift */,
+			);
+			path = DRNetworking;
+			sourceTree = "<group>";
+		};
+		C36F2912232A3B4F00E563D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3FA4F182330BB5C00503143 /* DRConfig */,
+				C36F290F232A3AF900E563D5 /* DRNetworking */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C39F22AC23504EA20014D2CD /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				C39F22AD23504EC70014D2CD /* consts.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		C39F22AF235067A80014D2CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C39F22B0235069440014D2CD /* TopList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3B175D0234C2C38001622EE /* VCHome */ = {
+			isa = PBXGroup;
+			children = (
+				C39F22AC23504EA20014D2CD /* Configs */,
+				C3EA16F9234C794B00C501EC /* Views */,
+				C3EA16F8234C793800C501EC /* Cells */,
+				C3C9D77D2328F2F60024CD48 /* HomeViewController.swift */,
+			);
+			path = VCHome;
+			sourceTree = "<group>";
+		};
+		C3B175D1234C2C5B001622EE /* VCSearch */ = {
+			isa = PBXGroup;
+			children = (
+				C3C9D78D2328F61E0024CD48 /* SearchViewController.swift */,
+			);
+			path = VCSearch;
+			sourceTree = "<group>";
+		};
 		C3C9D76F2328F2F60024CD48 = {
 			isa = PBXGroup;
 			children = (
 				C3C9D77A2328F2F60024CD48 /* Musiic */,
 				C3C9D7792328F2F60024CD48 /* Products */,
+				2287583F8AB09298789AF4D1 /* Pods */,
+				69541907F1D4EC9CD3EE7790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +156,55 @@
 		C3C9D77A2328F2F60024CD48 /* Musiic */ = {
 			isa = PBXGroup;
 			children = (
+				C39F22AF235067A80014D2CD /* Model */,
+				C3B175D1234C2C5B001622EE /* VCSearch */,
+				C3B175D0234C2C38001622EE /* VCHome */,
+				C36F2912232A3B4F00E563D5 /* Utils */,
+				C3C9D78F2328F67F0024CD48 /* SysCustom */,
 				C3C9D77B2328F2F60024CD48 /* AppDelegate.swift */,
-				C3C9D77D2328F2F60024CD48 /* ViewController.swift */,
 				C3C9D77F2328F2F60024CD48 /* Main.storyboard */,
 				C3C9D7822328F2F70024CD48 /* Assets.xcassets */,
 				C3C9D7842328F2F70024CD48 /* LaunchScreen.storyboard */,
 				C3C9D7872328F2F70024CD48 /* Info.plist */,
 			);
 			path = Musiic;
+			sourceTree = "<group>";
+		};
+		C3C9D78F2328F67F0024CD48 /* SysCustom */ = {
+			isa = PBXGroup;
+			children = (
+				C3C9D7902328F6CE0024CD48 /* CustomTabBarViewController.swift */,
+				C3C9D7942329018D0024CD48 /* CustomViewController.swift */,
+			);
+			path = SysCustom;
+			sourceTree = "<group>";
+		};
+		C3EA16F8234C793800C501EC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C3B175D2234C3C89001622EE /* HomeCollectionViewCell.swift */,
+				C3B175D3234C3C89001622EE /* HomeCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C3EA16F9234C794B00C501EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3EA16FA234C798400C501EC /* HomeCollectionHeaderReusableView.swift */,
+				C3EA16FB234C798400C501EC /* HomeCollectionHeaderReusableView.xib */,
+				C3EA16FE234C7E4200C501EC /* HomeCollectionFooterReusableView.swift */,
+				C3EA16FF234C7E4200C501EC /* HomeCollectionFooterReusableView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3FA4F182330BB5C00503143 /* DRConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C3FA4F192330BB7200503143 /* DRConfig.swift */,
+			);
+			path = DRConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3C9D78A2328F2F70024CD48 /* Build configuration list for PBXNativeTarget "Musiic" */;
 			buildPhases = (
+				B4B69EE67FA387C4044FB92F /* [CP] Check Pods Manifest.lock */,
 				C3C9D7742328F2F60024CD48 /* Sources */,
 				C3C9D7752328F2F60024CD48 /* Frameworks */,
 				C3C9D7762328F2F60024CD48 /* Resources */,
+				2B4D27215C9EB858ADC5C35C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +270,86 @@
 				C3C9D7862328F2F70024CD48 /* LaunchScreen.storyboard in Resources */,
 				C3C9D7832328F2F70024CD48 /* Assets.xcassets in Resources */,
 				C3C9D7812328F2F60024CD48 /* Main.storyboard in Resources */,
+				C3EA16FD234C798500C501EC /* HomeCollectionHeaderReusableView.xib in Resources */,
+				C3B175D5234C3C89001622EE /* HomeCollectionViewCell.xib in Resources */,
+				C3EA1701234C7E4200C501EC /* HomeCollectionFooterReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4D27215C9EB858ADC5C35C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Musiic/Pods-Musiic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LoadingShimmer/LoadingShimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoadingShimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Musiic/Pods-Musiic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B69EE67FA387C4044FB92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Musiic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3C9D7742328F2F60024CD48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3C9D77E2328F2F60024CD48 /* ViewController.swift in Sources */,
+				C3C9D78E2328F61E0024CD48 /* SearchViewController.swift in Sources */,
+				C3C9D77E2328F2F60024CD48 /* HomeViewController.swift in Sources */,
+				C3C9D7952329018D0024CD48 /* CustomViewController.swift in Sources */,
+				C3FA4F1A2330BB7200503143 /* DRConfig.swift in Sources */,
+				C39F22AE23504EC70014D2CD /* consts.swift in Sources */,
+				C3EA16FC234C798500C501EC /* HomeCollectionHeaderReusableView.swift in Sources */,
+				C36F2911232A3B3700E563D5 /* DRNetworking.swift in Sources */,
+				C3C9D7912328F6CE0024CD48 /* CustomTabBarViewController.swift in Sources */,
 				C3C9D77C2328F2F60024CD48 /* AppDelegate.swift in Sources */,
+				C3B175D4234C3C89001622EE /* HomeCollectionViewCell.swift in Sources */,
+				C3EA1700234C7E4200C501EC /* HomeCollectionFooterReusableView.swift in Sources */,
+				C39F22B1235069440014D2CD /* TopList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +493,11 @@
 		};
 		C3C9D78B2328F2F70024CD48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18653BDF996B263B64A37D9A /* Pods-Musiic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U59THU9FJ;
 				INFOPLIST_FILE = Musiic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +512,11 @@
 		};
 		C3C9D78C2328F2F70024CD48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B7A7BB8A16C58CC6F7AF6C /* Pods-Musiic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U59THU9FJ;
 				INFOPLIST_FILE = Musiic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // 获取token
+//        DRNetworking.Post(
+//            url: "https://accounts.spotify.com/api/token",
+//            param: ["grant_type": "client_credentials"],
+//            rHeaders: ["Content-Type": "application/x-www-form-urlencoded"],
+//            callback: { (success, response) in
+//                if success {
+//                    print("获取token成功：\(response["token_type"].rawString()!) \(response["access_token"].rawString()!)")
+//                    DRConfig.shared.token = String(format: "%@ %@", response["token_type"].rawString()!, response["access_token"].rawString()!)
+//                    NotificationCenter.default.post(Notification(name: .TOKENUPDATE))
+//                }
+//                else {
+//                    print("获取token失败")
+//                }
+//        })
+        
         return true
     }
 

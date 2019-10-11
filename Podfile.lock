@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - ESTabBarController-swift (2.7)
+  - Kingfisher (5.7.1)
+  - LoadingShimmer (1.0.2)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.2)
+  - ESTabBarController-swift
+  - Kingfisher (~> 5.0)
+  - LoadingShimmer
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ESTabBarController-swift
+    - Kingfisher
+    - LoadingShimmer
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  LoadingShimmer: 930cfb5e2f3cd65b964fd1095e22a8c470e58633
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 7c1e0984d92624f8d9ae17dc6c0f0d38cbcd8f42
+
+COCOAPODS: 1.6.1
