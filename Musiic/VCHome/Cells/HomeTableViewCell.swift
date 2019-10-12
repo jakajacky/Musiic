@@ -30,5 +30,14 @@ class HomeTableViewCell: UICollectionViewCell {
             make.height.equalTo(20)
         }
     }
+    
+    func clear() {
+        self.subviews.forEach { (subview) in
+            if subview.isKind(of: DRGradientText.self) {
+                let drg = subview as! DRGradientText
+                drg._text = ""
+            }
+        }
+    }
 
 }

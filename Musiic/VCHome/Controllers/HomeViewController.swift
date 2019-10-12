@@ -110,6 +110,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if indexPath.section == 0 {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "tcell1", for: indexPath) as! HomeTableViewCell
+            cell.clear()
             // 获取model模型
             let toplist:TopList = self.final_data_source[consts.toplist_name[indexPath.section]]![indexPath.row]
             // 绑定数据
@@ -129,6 +130,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         }
         else {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell1", for: indexPath) as! HomeCollectionViewCell
+            cell.clear()
             // 获取model模型
             let toplist:TopList = self.final_data_source[consts.toplist_name[indexPath.section]]![indexPath.row]
             // 绑定数据

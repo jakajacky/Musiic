@@ -10,7 +10,7 @@ import UIKit
 
 class HomeCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var label: DRVerticalText!
     @IBOutlet weak var updateFrequency: UILabel!
     var updateFrequencyTime: DRGradientText!
     
@@ -27,6 +27,16 @@ class HomeCollectionViewCell: UICollectionViewCell {
             make.bottom.equalTo(imageView.snp.bottom)
             make.height.equalTo(20)
         }
+        
+        label.verticalMode = .top
     }
-
+    
+    func clear() {
+        self.subviews.forEach { (subview) in
+            if subview.isKind(of: DRGradientText.self) {
+                let drg = subview as! DRGradientText
+                drg._text = ""
+            }
+        }
+    }
 }
