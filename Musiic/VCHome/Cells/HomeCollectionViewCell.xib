@@ -20,7 +20,7 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iur-fQ-ckA">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label水电费水电费阿道夫水电费是否" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6O-yG-kah">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6O-yG-kah">
                         <rect key="frame" x="8" y="200" width="184" height="35"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="35" id="InJ-rP-7g5"/>
@@ -29,7 +29,7 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hF8-bv-rHf">
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hF8-bv-rHf">
                         <rect key="frame" x="8" y="180" width="184" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="j13-cD-wXP"/>
@@ -59,7 +59,7 @@
                 <outlet property="label" destination="q6O-yG-kah" id="MHj-Wz-Huo"/>
                 <outlet property="updateFrequency" destination="hF8-bv-rHf" id="tPt-LW-37H"/>
             </connections>
-            <point key="canvasLocation" x="79.710144927536234" y="145.3125"/>
+            <point key="canvasLocation" x="79.710144927536234" y="144.97767857142856"/>
         </collectionViewCell>
     </objects>
 </document>

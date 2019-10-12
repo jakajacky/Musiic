@@ -1,18 +1,20 @@
 //
-//  HomeCollectionViewCell.swift
+//  HomeTableViewCell.swift
 //  Musiic
 //
-//  Created by 张小强 on 2019/10/8.
+//  Created by 张小强 on 2019/10/12.
 //  Copyright © 2019 张小强. All rights reserved.
 //
 
 import UIKit
 
-class HomeCollectionViewCell: UICollectionViewCell {
+class HomeTableViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var label: UILabel!
     @IBOutlet weak var updateFrequency: UILabel!
-    var updateFrequencyTime: DRGradientText!
+    @IBOutlet weak var firstSong: UILabel!
+    @IBOutlet weak var secondSong: UILabel!
+    @IBOutlet weak var thirdSong: UILabel!
+    var updateFrequencyTime:DRGradientText!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,8 +25,8 @@ class HomeCollectionViewCell: UICollectionViewCell {
         
         updateFrequencyTime.snp.makeConstraints { (make) in
             make.left.equalToSuperview()
-            make.right.equalToSuperview()
-            make.bottom.equalTo(imageView.snp.bottom)
+            make.right.equalTo(imageView.snp.right)
+            make.bottom.equalToSuperview()
             make.height.equalTo(20)
         }
     }

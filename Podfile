@@ -12,5 +12,6 @@ target 'Musiic' do
   pod 'LoadingShimmer'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'Kingfisher', '~> 5.0'
+  pod 'SnapKit', '~> 4.0'
 
 end

@@ -11,6 +11,7 @@
 		C36F2911232A3B3700E563D5 /* DRNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F2910232A3B3700E563D5 /* DRNetworking.swift */; };
 		C39F22AE23504EC70014D2CD /* consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F22AD23504EC70014D2CD /* consts.swift */; };
 		C39F22B1235069440014D2CD /* TopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F22B0235069440014D2CD /* TopList.swift */; };
+		C3A09CB823517EF900B230B9 /* DRGradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A09CB723517EF900B230B9 /* DRGradientText.swift */; };
 		C3B175D4234C3C89001622EE /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B175D2234C3C89001622EE /* HomeCollectionViewCell.swift */; };
 		C3B175D5234C3C89001622EE /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B175D3234C3C89001622EE /* HomeCollectionViewCell.xib */; };
 		C3C9D77C2328F2F60024CD48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D77B2328F2F60024CD48 /* AppDelegate.swift */; };
@@ -26,6 +27,8 @@
 		C3EA1700234C7E4200C501EC /* HomeCollectionFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA16FE234C7E4200C501EC /* HomeCollectionFooterReusableView.swift */; };
 		C3EA1701234C7E4200C501EC /* HomeCollectionFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3EA16FF234C7E4200C501EC /* HomeCollectionFooterReusableView.xib */; };
 		C3FA4F1A2330BB7200503143 /* DRConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FA4F192330BB7200503143 /* DRConfig.swift */; };
+		C3FCA463235170EA008530D7 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FCA461235170EA008530D7 /* HomeTableViewCell.swift */; };
+		C3FCA464235170EA008530D7 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3FCA462235170EA008530D7 /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,7 @@
 		C36F2910232A3B3700E563D5 /* DRNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRNetworking.swift; sourceTree = "<group>"; };
 		C39F22AD23504EC70014D2CD /* consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consts.swift; sourceTree = "<group>"; };
 		C39F22B0235069440014D2CD /* TopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopList.swift; sourceTree = "<group>"; };
+		C3A09CB723517EF900B230B9 /* DRGradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRGradientText.swift; sourceTree = "<group>"; };
 		C3B175D2234C3C89001622EE /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		C3B175D3234C3C89001622EE /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		C3C9D7782328F2F60024CD48 /* Musiic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musiic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +55,8 @@
 		C3EA16FE234C7E4200C501EC /* HomeCollectionFooterReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionFooterReusableView.swift; sourceTree = "<group>"; };
 		C3EA16FF234C7E4200C501EC /* HomeCollectionFooterReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionFooterReusableView.xib; sourceTree = "<group>"; };
 		C3FA4F192330BB7200503143 /* DRConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRConfig.swift; sourceTree = "<group>"; };
+		C3FCA461235170EA008530D7 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		C3FCA462235170EA008530D7 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		E3B7A7BB8A16C58CC6F7AF6C /* Pods-Musiic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musiic.release.xcconfig"; path = "Target Support Files/Pods-Musiic/Pods-Musiic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +100,7 @@
 		C36F2912232A3B4F00E563D5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C3A09CB923517EFF00B230B9 /* DRGradientText */,
 				C3FA4F182330BB5C00503143 /* DRConfig */,
 				C36F290F232A3AF900E563D5 /* DRNetworking */,
 			);
@@ -116,13 +123,30 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C3A09CB923517EFF00B230B9 /* DRGradientText */ = {
+			isa = PBXGroup;
+			children = (
+				C3A09CB723517EF900B230B9 /* DRGradientText.swift */,
+			);
+			path = DRGradientText;
+			sourceTree = "<group>";
+		};
+		C3A09CBA23517F1C00B230B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3C9D77D2328F2F60024CD48 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		C3B175D0234C2C38001622EE /* VCHome */ = {
 			isa = PBXGroup;
 			children = (
+				C3A09CBA23517F1C00B230B9 /* Controllers */,
+				C3FCA46023516DAE008530D7 /* FlowLayout */,
 				C39F22AC23504EA20014D2CD /* Configs */,
 				C3EA16F9234C794B00C501EC /* Views */,
 				C3EA16F8234C793800C501EC /* Cells */,
-				C3C9D77D2328F2F60024CD48 /* HomeViewController.swift */,
 			);
 			path = VCHome;
 			sourceTree = "<group>";
@@ -184,6 +208,8 @@
 			children = (
 				C3B175D2234C3C89001622EE /* HomeCollectionViewCell.swift */,
 				C3B175D3234C3C89001622EE /* HomeCollectionViewCell.xib */,
+				C3FCA461235170EA008530D7 /* HomeTableViewCell.swift */,
+				C3FCA462235170EA008530D7 /* HomeTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -205,6 +231,13 @@
 				C3FA4F192330BB7200503143 /* DRConfig.swift */,
 			);
 			path = DRConfig;
+			sourceTree = "<group>";
+		};
+		C3FCA46023516DAE008530D7 /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3C9D7862328F2F70024CD48 /* LaunchScreen.storyboard in Resources */,
+				C3FCA464235170EA008530D7 /* HomeTableViewCell.xib in Resources */,
 				C3C9D7832328F2F70024CD48 /* Assets.xcassets in Resources */,
 				C3C9D7812328F2F60024CD48 /* Main.storyboard in Resources */,
 				C3EA16FD234C798500C501EC /* HomeCollectionHeaderReusableView.xib in Resources */,
@@ -292,6 +326,7 @@
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/LoadingShimmer/LoadingShimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -302,6 +337,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoadingShimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +376,7 @@
 			files = (
 				C3C9D78E2328F61E0024CD48 /* SearchViewController.swift in Sources */,
 				C3C9D77E2328F2F60024CD48 /* HomeViewController.swift in Sources */,
+				C3FCA463235170EA008530D7 /* HomeTableViewCell.swift in Sources */,
 				C3C9D7952329018D0024CD48 /* CustomViewController.swift in Sources */,
 				C3FA4F1A2330BB7200503143 /* DRConfig.swift in Sources */,
 				C39F22AE23504EC70014D2CD /* consts.swift in Sources */,
@@ -347,6 +384,7 @@
 				C36F2911232A3B3700E563D5 /* DRNetworking.swift in Sources */,
 				C3C9D7912328F6CE0024CD48 /* CustomTabBarViewController.swift in Sources */,
 				C3C9D77C2328F2F60024CD48 /* AppDelegate.swift in Sources */,
+				C3A09CB823517EF900B230B9 /* DRGradientText.swift in Sources */,
 				C3B175D4234C3C89001622EE /* HomeCollectionViewCell.swift in Sources */,
 				C3EA1700234C7E4200C501EC /* HomeCollectionFooterReusableView.swift in Sources */,
 				C39F22B1235069440014D2CD /* TopList.swift in Sources */,
